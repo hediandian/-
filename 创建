@@ -1,0 +1,8 @@
+create database xs charcater set utf8 collate utf8_bin;
+use xs;
+create table 表
+(
+id int primary key not null,
+name varchar(20) not null,
+ssex char(1) not null
+);
